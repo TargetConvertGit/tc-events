@@ -1,0 +1,27 @@
+{
+  "name": "tc-events",
+  "version": "1.0.0",
+  "description": "TC自動化規則核心",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TargetConvertGit/tc-events.git"
+  },
+  "keywords": [],
+  "author": "rc1021 <rc.701021@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TargetConvertGit/tc-events/issues"
+  },
+  "homepage": "https://github.com/TargetConvertGit/tc-events/blob/main/README.md",
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "unbuild": "^1.2.1"
+  }
+}
