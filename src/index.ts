@@ -11,10 +11,13 @@
  * 事件輔助類別
  */
 export class EventHelper {
-    constructor() { }
     // 取得列舉索引
     getEnumKey(enumType: any, enumValue: any): string {
         return Object.keys(enumType)[Object.values(enumType).indexOf(enumValue)];
+    }
+    // 取得列舉所有索引
+    getEnumKeys(enumType: any): string[] {
+        return Object.keys(enumType);
     }
 }
 

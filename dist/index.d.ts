@@ -10,8 +10,8 @@
  * 事件輔助類別
  */
 declare class EventHelper {
-    constructor();
     getEnumKey(enumType: any, enumValue: any): string;
+    getEnumKeys(enumType: any): string[];
 }
 /**
  * 事件本身

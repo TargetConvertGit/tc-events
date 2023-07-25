@@ -1,6 +1,6 @@
 {
   "name": "tc-events",
-  "version": "1.0.0",
+  "version": "1.0.11",
   "description": "TC自動化規則核心",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",

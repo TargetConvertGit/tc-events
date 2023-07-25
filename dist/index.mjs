@@ -1,9 +1,11 @@
 class EventHelper {
-  constructor() {
-  }
   // 取得列舉索引
   getEnumKey(enumType, enumValue) {
     return Object.keys(enumType)[Object.values(enumType).indexOf(enumValue)];
+  }
+  // 取得列舉所有索引
+  getEnumKeys(enumType) {
+    return Object.keys(enumType);
   }
 }
 var ClientType = /* @__PURE__ */ ((ClientType2) => {

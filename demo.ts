@@ -1,4 +1,4 @@
-import * as TCEvent from './dist/index'
+import * as TCEvent from './src/index'
 
 /**
  * 事件項目範例
